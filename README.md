@@ -9,28 +9,8 @@ Finding police shootings by race.
 If signs of mental illnesses were present.
 If bodycams were present on police officers.
 
--- Getting top 10 armed weapons from database
-select armed, COUNT(armed) AS num_of_armed
-from `shootings-329516.shootings.shootingslist`
-group by armed order by num_of_armed desc
-limit 10;
+SQL queries:
+![alt text](https://github.com/justinjfisher90/Analysis/blob/main/sql.PNG)
 
---selecting top 10 states shootings occur
-SELECT state, COUNT(state) as states
-FROM `shootings-329516.shootings.shootingslist`
-group by state order by states desc LIMIT 10
-
---which race has been shot more by police
-select race, COUNT(race) AS num_race_shot
-from `shootings-329516.shootings.shootingslist`
-group by race;
-
---Retreiving signs_of_mental_illness count by race
-select race,COUNT(id) AS mental_illness_signs_total, COUNT(case when signs_of_mental_illness = true then 1 END) AS mental_illness_true, COUNT(case when signs_of_mental_illness = false then 1 END) AS mental_illness_false
-from `shootings-329516.shootings.shootingslist`
-group by race;
-
---checking if bodycam was present
-select race, COUNT(id) AS total_shootings, COUNT(case when body_camera = true then 1 end) AS bodycam_present, COUNT(case when body_camera = false then 1 end) AS bodycam_not_present
-from `shootings-329516.shootings.shootingslist`
-group by race;
+After querying the following end exporting the results, I then took the tables to Power bi to create the data visualizations.
+![alt text](https://github.com/justinjfisher90/Analysis/blob/main/img1.PNG)
