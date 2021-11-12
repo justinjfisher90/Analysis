@@ -10,6 +10,7 @@ If signs of mental illnesses were present.
 If bodycams were present on police officers.
 
 SQL queries:
+
 ![alt text](https://github.com/justinjfisher90/Analysis/blob/main/sql.PNG)
 
 After querying the following end exporting the results, I then took the tables to Power bi to create the data visualizations.
