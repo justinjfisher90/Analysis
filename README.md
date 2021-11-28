@@ -1,5 +1,5 @@
 # Analysis 1
-Shootings in United States
+Police Shootings in the United States
 
 Exploring Police shootings from January 2015 to June 2020. The following dataset includes 4,895 rows with important fields such as race, body cameras, signs of mental illness, and others. the following sql queries were used to find accurate data using bigquery to answer the following questions:
 
