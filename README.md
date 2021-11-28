@@ -13,5 +13,5 @@ SQL queries:
 
 ![alt text](https://github.com/justinjfisher90/Analysis/blob/main/sql.PNG)
 
-After querying the following and exporting the results, I then took the tables to Power bi to create the data visualizations.
+After querying the following and exporting the results, I then took the tables to Power bi to create the data visualizations. After exploring the data, a concerning visualization would be the amount of shootings without bodycams compared to the amount of shootings when bodycams were present.
 ![alt text](https://github.com/justinjfisher90/Analysis/blob/main/img1.PNG)
